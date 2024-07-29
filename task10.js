@@ -1,9 +1,5 @@
 function fun10(x) {
-    if (x%2 == 0) {
-        return true
-    } else {
-        return false
-    }
+    return x%2 == 0
 }
 
 console.log(fun10(8))
